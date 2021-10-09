@@ -1,0 +1,27 @@
+# https://git-scm.com/docs/gitattributes
+
+* text=auto
+
+# common
+*.bat  text eol=crlf
+*.js   text working-tree-encoding=UTF-8
+*.json text working-tree-encoding=UTF-8
+*.txt  text working-tree-encoding=UTF-8
+*.md   text working-tree-encoding=UTF-8
+*.xml  text working-tree-encoding=UTF-8
+*.css  text working-tree-encoding=UTF-8 diff=css
+*.html text working-tree-encoding=UTF-8 diff=html
+*.png  binary
+*.ico  binary
+*.gz   binary
+
+# unity
+**/Build/*.data     binary
+**/Build/*.wasm     binary
+**/Build/*.unityweb binary
+**/Assets/*.bundle  binary
+**/StreamingAssets/**/*.json text eol=lf working-tree-encoding=UTF-8
+**/StreamingAssets/**/*.xml  text eol=lf working-tree-encoding=UTF-8
+
+# project
+#
