@@ -1,0 +1,14 @@
+# https://git-scm.com/docs/gitattributes
+
+* text=auto
+
+*.md   text
+*.js   text
+*.json text
+*.html text
+*.css  text
+*.txt  text
+
+*.png binary
+*.ttf binary
+*.ico binary
